@@ -20,7 +20,7 @@
 ## Summary
 
 This is a new **Bank of Hong Kong Luna** Payments System REST API which does not exist yet.
-Main aim of this project is to provide HTTP REST API to Payments DB.
+Main aim of this project is to implement HTTP REST API to Payments DB.
 
 ## Database
 
