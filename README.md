@@ -51,7 +51,10 @@ with schema: `/db/schema.sql`
    ```
 ### Running REST API
 
-FLASK_APP=app.py FLASK_ENV=development FLASK_DEBUG=1 flask run
+- Executing locally:
+  ```bash
+  FLASK_APP=app.py FLASK_ENV=development FLASK_DEBUG=1 flask run
+  ```
    
 ### Unit Tests
 
