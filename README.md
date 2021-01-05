@@ -53,7 +53,7 @@ with schema: `/db/schema.sql`
 
 - Executing locally:
   ```bash
-  FLASK_APP=app.py FLASK_ENV=development FLASK_DEBUG=1 flask run
+  FLASK_APP=app.py FLASK_ENV=development FLASK_DEBUG=1 flask run --host=0.0.0.0
   ```
    
 ### Unit Tests
