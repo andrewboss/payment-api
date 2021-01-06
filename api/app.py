@@ -1,9 +1,10 @@
 import os
 import sqlite3
+from pathlib import Path
 
 from flask import Flask
 
-ROOT_DIR = os.path.dirname(__file__)
+ROOT_DIR = str(Path(os.path.dirname(__file__)).parent)
 DATABASE = ROOT_DIR + '/db/database.db'
 SCHEMA = ROOT_DIR + '/db/schema.sql'
 

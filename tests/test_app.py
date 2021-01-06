@@ -2,7 +2,7 @@ import string
 import unittest
 import random
 
-from app import app, init_db, get_db
+from api import app, init_db, get_db
 
 
 def get_client():
